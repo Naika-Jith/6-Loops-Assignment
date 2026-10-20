@@ -43,11 +43,11 @@ namespace _6_Loops_Assignment
             //numbers in the prompt.
             //MAKE SURE THERE IS NO WAY TO GET STUCK INSIDE AN INFINITE LOOP!
 
-            int min;
-            int max;
-            int number;
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine();
+            Console.WriteLine("Part 1: Prompter");
+            Console.WriteLine();
 
-            
 
 
 
@@ -55,7 +55,10 @@ namespace _6_Loops_Assignment
 
         static void BankingMachine()
         {
-
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+            Console.WriteLine("Part 2: Simple Banking Machine");
+            Console.WriteLine();
 
 
 
@@ -65,21 +68,16 @@ namespace _6_Loops_Assignment
 
         static void DoublesRoller()
         {
-
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine();
+            Console.WriteLine("Part 3: Double Roller");
+            Console.WriteLine();
 
 
 
 
 
         }
-
-
-
-
-
-
-
-
 
     }
 }
