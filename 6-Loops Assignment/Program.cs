@@ -48,6 +48,61 @@ namespace _6_Loops_Assignment
             Console.WriteLine("Part 1: Prompter");
             Console.WriteLine();
 
+            int min = 0;
+            int max = 0;
+            int number = 0;
+
+            bool valid = false;
+
+            while (!valid)
+            {
+                Console.Write("Enter the minimum value: ");
+                valid = int.TryParse(Console.ReadLine(), out min);
+
+                if (!valid)
+                {
+                    Console.WriteLine("Invalid input. Try again.");
+                }
+
+            }
+
+            valid = false;
+
+            while (!valid)
+            {
+                Console.Write("Enter the maximum value: ");
+
+                if (int.TryParse(Console.ReadLine(),out max))
+                {
+                    if (max >= min)
+                    {
+                        valid = true;
+                    }
+
+
+                    else
+                    {
+                        Console.WriteLine("Maximum must be greater than or equal to minimum.");
+                    }
+
+                }
+
+                else
+                {
+                    Console.WriteLine("Invalid input. Try again.");
+                }
+
+
+                valid = false;
+
+                
+
+
+
+
+            }
+
+
 
 
 
